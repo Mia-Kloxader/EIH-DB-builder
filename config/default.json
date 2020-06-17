@@ -1,0 +1,23 @@
+{
+  "Version" : "0.0.1",
+  "Env": "default",
+  "Files": {
+    "ResourceDir": "resources",
+    "ResultDir": "json",
+    "YAML": {
+      "Blueprints": "blueprints.yaml",
+      "TypeIDs": "typeIDs.yaml"
+    },
+    "JSON": {
+      "Blueprints": "blueprints.json",
+      "BlueprintsNames": "blueprints_names.json",
+      "TypeIDs": "typeIDs.json"
+    },
+    "Static": {
+      "Name": "sde.zip",
+      "Url": "https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/sde.zip",
+      "Checksum_File": "sde_checksum",
+      "Checksum_Url": "https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/checksum"
+    }
+  }
+}
